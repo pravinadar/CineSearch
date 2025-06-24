@@ -1,0 +1,1 @@
+why do we use "use client" at the start?
