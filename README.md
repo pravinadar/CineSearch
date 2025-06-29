@@ -36,7 +36,7 @@ Create a `.env` file in the root directory with the following variables from `.e
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd react-refresher
+cd CineSearch/react-refresher
 ```
 
 2. Install dependencies:
