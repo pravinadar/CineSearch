@@ -40,6 +40,7 @@ function App() {
       const apiEndpoint = query ?
         `${API_BASE_URL}/search/movie?query=${encodeURIComponent(query)}&include_adult=false&language=en-US&page=1&sort_by=popularity.desc`
         : `${API_BASE_URL}/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc`
+      
       const response = await fetch(apiEndpoint, API_OPTIONS)
 
       if (!response.ok) {
